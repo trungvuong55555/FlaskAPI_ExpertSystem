@@ -1,0 +1,55 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  height: 90%;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: white;
+  text-align: center;
+}
+form h2 {
+  font-size: 25px;
+}
+form label {
+  font-size: 17px;
+  text-align: left;
+}
+form .wine-property {
+  width: 90%;
+  height: 30px;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  line-height: 30px;
+  margin: 8px 0;
+  position: relative;
+}
+.wine-property input {
+  width: 60%;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  padding-left: 10px;
+}
+
+form button {
+  margin-top: 20px;
+  padding: 5px;
+}

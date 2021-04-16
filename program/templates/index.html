@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quality of Wine</title>
+   <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  </head>
+  <body>
+    <form action="" method="post">
+      <h2>Testing the quality of wine</h2>
+       <div class="wine-property">
+        <label>Enter the type</label>
+        <input type="number" name="a0" placeholder="type" required="required"/>
+      </div>
+	  <div class="wine-property">
+        <label>Enter the fixed acidity</label>
+        <input type="number" name="a1" placeholder="fixed acidity" required="required"/>
+      </div>
+
+      <div class="wine-property">
+        <label>Enter the volatile acidity</label>
+        <input type="number" name="a2" placeholder="volatile acidity" required="required" />
+      </div>
+
+      <div class="wine-property">
+        <label>Enter the citric acid</label>
+        <input type="number" name="a3" placeholder="citric acid" required="required" />
+      </div>
+
+      <div class="wine-property">
+        <label>Enter the chlorides</label>
+        <input type="number" name="a4" placeholder="chlorides" required="required"/>
+      </div>
+
+      <div class="wine-property">
+        <label>Enter the free sulfulr dioxide</label>
+        <input type="number" name="a5" placeholder="free sulfulr dioxide" required="required" />
+      </div>
+
+      <div class="wine-property">
+        <label>Enter the total sulfur dioxide</label>
+        <input type="number" name="a6" placeholder="total sulfur dioxide" required="required" />
+      </div>
+
+      <div class="wine-property">
+        <label>Enter the density</label>
+        <input type="number" name="a7" placeholder="density" required="required" />
+      </div>
+
+      <div class="wine-property">
+        <label>Enter the PH number</label>
+        <input type="number" name="a8" placeholder="PH number" required="required" />
+      </div>
+
+      <div class="wine-property">
+        <label>Enter the sulphates</label>
+        <input type="number" name="a9" placeholder="sulphates" required="required"/>
+      </div>
+
+      <div class="wine-property">
+        <label>Enter the fixed alcohol</label>
+        <input type="number" name="a10" placeholder="alcohol" required="required"/>
+      </div>
+
+      <button>Calculating</button>
+    </form>
+  </body>
+</html>
